@@ -14,11 +14,11 @@ function takeANumber(list,name){
      }
    }
    
-   function currentLine(list){ //function with an array
-     let line = ''//empty variable
-     for(let i = 0; i < list.length;i++){ //a loop, initiliase a counter variable i, if i is less then the length of the array we loop through the array and add 1 to the counter. keeps looping until the counter variable is greter or equal to array.
-       line += ` ${i+1}. `  //storing the calculation into line.
-       line += list[i]  //adding the cirrent element of the array to the string.
+   function currentLine(list){ 
+     let line = ''
+     for(let i = 0; i < list.length;i++){ 
+       line += ` ${i+1}. `  
+       line += list[i]  
        if (list.length !=i+1){// if statemtn it checks the length os the array, if not eeaual to counter 
             line+=',' //adds the comma
        }
