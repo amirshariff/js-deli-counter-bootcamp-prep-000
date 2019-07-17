@@ -7,7 +7,7 @@ function takeANumber(list,name){
      if (list.length !=0) { 
       let customer =  list.shift() 
       let nowServing = `Currently serving ${customer}.` 
-      return nowServing //return 
+      return nowServing 
      }
      else {
        return "There is nobody waiting to be served!"
