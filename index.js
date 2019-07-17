@@ -5,8 +5,8 @@ function takeANumber(list,name){
    
    function nowServing(list){ 
      if (list.length !=0) { 
-      let customer =  list.shift() // storing  the first elemtn of list array in food variable. using shift method
-      let nowServing = `Currently serving ${customer}.` //the element (customer name) that was pushed is is used here.
+      let customer =  list.shift() 
+      let nowServing = `Currently serving ${customer}.` 
       return nowServing //return 
      }
      else {
