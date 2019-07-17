@@ -1,4 +1,3 @@
-
 function takeANumber(list,name){  //function created, 2 arguements are passed. one is array and the other a string.
     list.push(name) //adding name string into list array using push method
      return `Welcome, ${name}. You are number ${list.length } in line.`// i returned a message, by using the name string dynamically and we fiind the lenght using an array method called .length
