@@ -19,8 +19,8 @@ function takeANumber(list,name){
      for(let i = 0; i < list.length;i++){ 
        line += ` ${i+1}. `  
        line += list[i]  
-       if (list.length !=i+1){// if statemtn it checks the length os the array, if not eeaual to counter 
-            line+=',' //adds the comma
+       if (list.length !=i+1){ 
+            line+=',' 
        }
        
        
